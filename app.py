@@ -3,6 +3,7 @@ import pikepdf
 import tempfile
 import zipfile
 import os
+from PyPDF2 import PdfReader
 from io import BytesIO
 
 # Inject CSS for styling and mobile responsiveness
